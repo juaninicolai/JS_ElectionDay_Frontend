@@ -12,7 +12,7 @@ function logParties(response) {
 }
 
 //get all parties
-const candidates = fetch("https://juan-nicolai.herokuapp.com/api/party")
+const parties = fetch("https://juan-nicolai.herokuapp.com/api/party")
   .then((Response) => Response.json())
   .then((response) => {
     console.log(response);
